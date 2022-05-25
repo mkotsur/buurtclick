@@ -4,7 +4,7 @@
 # https://www.cbs.nl/nl-nl/maatwerk/2021/31/kerncijfers-wijken-en-buurten-2021
 
 # Packages installation
-install.packages("rgeoda")
+install.packages("readxl")
 install.packages("sf")
 install.packages("ggplot2")
 install.packages("dplyr")
@@ -13,6 +13,7 @@ install.packages("dplyr")
 library(sf)
 library(ggplot2)
 library(dplyr)
+library(readxl)
 
 # Kerncijfers
 kern = read_excel("./.data/kwb-2021.xls") %>% 
